@@ -14,5 +14,5 @@ if html_text.status_code == 200:
     res = []
     for i, x in enumerate(spisok):
         r = f'{i + 1} {"стир" if i <7 else "суш"}: {x}'
-        res.append(r)
+        res.append(r) 
 
